@@ -1,7 +1,9 @@
 ## 一、纯IPV6服务器安装V2ray
 
 **1.首先修改DNS，输入以下命令即可。这是为了能访问v4网址。**
-```echo -e "nameserver 2001:67c:2b0::4 \nnameserver 2001:67c:2b0::6" > /etc/resolv.conf```
+```
+echo -e "nameserver 2001:67c:2b0::4 \nnameserver 2001:67c:2b0::6" > /etc/resolv.conf
+```
 **2.安装unzip，解压v2ray需要。还有psmisc，防止某些系统不自带killall。以下命令是针对debian的。**
 ```
 apt update
@@ -93,11 +95,17 @@ sleep 5
 ## 二、纯IPV6服务器安装宝塔面板
 
 **1.首先修改DNS，输入以下命令即可。这是为了能访问v4网址。**
-```echo -e "nameserver 2001:67c:2b0::4 \nnameserver 2001:67c:2b0::6" > /etc/resolv.conf```
+```
+echo -e "nameserver 2001:67c:2b0::4 \nnameserver 2001:67c:2b0::6" > /etc/resolv.conf
+```
 
 **2.安装依赖，如```Curl```等等，如已安装可忽略此步**
 
 **3.安装带 IPv6 的宝塔，执行命令。**
-```curl -sSO http://download.bt.cn/install/new_install.sh && bash new_install.sh```
+```
+curl -sSO http://download.bt.cn/install/new_install.sh && bash new_install.sh
+```
 **4.管理宝塔面板。**
-```bt```
+```
+bt
+```
