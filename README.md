@@ -109,3 +109,6 @@ curl -sSO http://download.bt.cn/install/new_install.sh && bash new_install.sh
 ```
 bt
 ```
+**5.在```CF```AAAA记录到小鸡ip**
+
+然后访问```AAAA记录地址:宝塔端口号``` 例如：```eu.xxx.com:8080```就是你小鸡的宝塔面板了
