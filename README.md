@@ -16,8 +16,8 @@ cd /root/v2
 ```
 **4.下载caddy和v2ray。默认下载的是Linux amd64位版本。**
 ```
-wget --no-check-certificate "https://caddyserver.com/download/linux/amd64?license=personal&telemetry=off" -O - | tar -xzv caddy
-wget --no-check-certificate "https://github.com/v2ray/v2ray-core/releases/download/v4.22.1/v2ray-linux-64.zip" && unzip -o v2ray-linux-64.zip v2ray v2ctl geosite.dat geoip.dat && rm v2ray-linux-64.zip
+wget --no-check-certificate "https://raw.githubusercontent.com/veip007/IPV6/master/caddy" 
+wget --no-check-certificate "https://github.com/v2ray/v2ray-core/releases/download/v4.28.2/v2ray-linux-64.zip" && unzip -o v2ray-linux-64.zip v2ray v2ctl geosite.dat geoip.dat && rm v2ray-linux-64.zip
 chmod +x caddy v2ray v2ctl
 ```
 **5.新建文件：Caddyfile。这是caddy的配置文件。**
