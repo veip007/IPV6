@@ -64,12 +64,15 @@ Ubuntu：
 ### 五、配置开机自启(务必要运行测试过后再配置)
 ```systemctl enable wg-quick@wgcf```
 
-### 终极杀招
+## 终极杀招
+一键配置
+
 ```wireguard-go```版本的问题
 
 实测```0.0.20201118```版本可用，其他几个版本不行(只测试了3个版本，包括目前最新版也不行)
 
 仅Debian10/Ubuntu20.04下测试可用，其他系统可以手动配置。
+
 ```apt-get update && apt-get install wget && wget -qO- https://cdn.jsdelivr.net/gh/peng4740/euserv-wgcf/install.sh|bash```
 
 ```apt-get update && apt-get install wget && wget -qO- https://haoduck.com/sh/euserv-wgcf.sh|bash```
