@@ -1,6 +1,9 @@
 ### 一、安装wireguard-go
 #### 编译安装
-可能需要的依赖：```apt install -y wget git make```
+可能需要的依赖：
+```
+apt install -y wget git make
+```
 ##### 1.安装golang1.16
 ```
 wget https://golang.org/dl/go1.16.1.linux-amd64.tar.gz
@@ -77,5 +80,7 @@ Ubuntu：
 apt-get update && apt-get install wget && wget -qO- https://cdn.jsdelivr.net/gh/peng4740/euserv-wgcf/install.sh|bash
 ```
 
-```apt-get update && apt-get install wget && wget -qO- https://haoduck.com/sh/euserv-wgcf.sh|bash```
+```bash
+apt-get update && apt-get install wget && wget -qO- https://haoduck.com/sh/euserv-wgcf.sh|bash
+```
 
