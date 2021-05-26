@@ -73,7 +73,9 @@ Ubuntu：
 
 仅Debian10/Ubuntu20.04下测试可用，其他系统可以手动配置。
 
-```apt-get update && apt-get install wget && wget -qO- https://cdn.jsdelivr.net/gh/peng4740/euserv-wgcf/install.sh|bash```
+```bash
+apt-get update && apt-get install wget && wget -qO- https://cdn.jsdelivr.net/gh/peng4740/euserv-wgcf/install.sh|bash
+```
 
 ```apt-get update && apt-get install wget && wget -qO- https://haoduck.com/sh/euserv-wgcf.sh|bash```
 
