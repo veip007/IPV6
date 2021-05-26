@@ -1,3 +1,6 @@
+## [纯IPV6增加IPV4](https://github.com/veip007/IPV6/blob/master/Add-ipv4.md)
+## [IPV4增加IPV6](https://github.com/veip007/Add-ipv6/blob/main/README.md)
+
 ## 一、纯IPV6服务器安装V2ray
 
 **1.首先修改DNS，输入以下命令即可。这是为了能访问v4网址。**
@@ -115,4 +118,4 @@ bt
 
 
 
-## [纯IPV6增加IPV4](https://github.com/veip007/IPV6/blob/master/Add-ipv4.md)
+
