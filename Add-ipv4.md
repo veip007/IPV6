@@ -48,6 +48,7 @@ cp -f wgcf-profile.conf /etc/wireguard/wgcf.conf
 依赖：```apt install -y wireguard-tools```
 
 如果提示找不到包安装失败了可能是没有epel源，先安装:```apt install epel-release -y```
+
 Debian:
 ```
 echo "deb http://deb.debian.org/debian/ unstable main" > /etc/apt/sources.list.d/unstable.list
@@ -55,7 +56,9 @@ printf 'Package: *\nPin: release a=unstable\nPin-Priority: 150\n' > /etc/apt/pre
 apt update
 apt install -y wireguard
 ```
-Ubuntu：```apt install -y wireguard```
+Ubuntu：
+```apt install -y wireguard```
+
 ### 四、启动
 ```wg-quick up wgcf```
 ### 五、配置开机自启(务必要运行测试过后再配置)
