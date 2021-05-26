@@ -112,3 +112,7 @@ bt
 **5.在```CF```AAAA记录到小鸡ip**
 
 然后访问```AAAA记录地址:宝塔端口号``` 例如：```eu.xxx.com:8080```就是你小鸡的宝塔面板了
+
+
+
+##[纯IPV6增加IPV4](https://github.com/veip007/IPV6/blob/master/Add-ipv4.md)
