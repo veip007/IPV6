@@ -84,3 +84,8 @@ apt-get update && apt-get install wget && wget -qO- https://cdn.jsdelivr.net/gh/
 apt-get update && apt-get install wget && wget -qO- https://haoduck.com/sh/euserv-wgcf.sh|bash
 ```
 
+#### 查看WARP当前统计状态：```wg```
+
+#### 查看当前IPV4 IP：```curl -4 ip.p3terx.com```
+
+#### 查看当前IPV6 IP：```curl -6 ip.p3terx.com```
